@@ -1,1 +1,2 @@
-https://github.com/SlavychD/rsschool-cv/blob/rsschool-cv-html/index.htmlg
+https://github.com/SlavychD/rsschool-cv/blob/rsschool-cv-html/index.html
+
