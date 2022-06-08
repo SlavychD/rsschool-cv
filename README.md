@@ -1,1 +1,1 @@
-https://SlavychD.github.io/rsschool-cv/index.html
+https://SlavychD.github.io/rsschool-cv/
