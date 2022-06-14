@@ -5,38 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmytro Slavych Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Dmytro Slavych</h1>
+    <header class="header">
+        <nav>
+            <ul class="header-links">
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#about">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#codeexample">Code examples</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#english">English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="name">
+            <div class="name-img">
+                <img src="images/avatar.jpg" alt="user-logo">
+            </div>
+            <div class="name-data">
+                <h1>Dmytro Slavych</h1>
+                <p>Front End trainee</p>
+            </div>  
+        </section>
+        <div class="main-data">
+            <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Location : Lviv, Ukraine</li>
+                    <li>Email : slavychd@gmail.com</li>
+                    <li>Phone : +380678108420</li>
+                    <li>GitHub : SlavychD</li>
+                    <li>Discord : Dmytro Slavych (SlavychD)#9935</li>
+                </ul>
+            </section>
+            
+            <section class="about" id="about">
+                <h2 >About me</h2>
+                <p>I can be both single and team player. Easy-learning person</p>
+            </section>
 
-    <h2>Contacts</h2>
-        <li>Location : Lviv, Ukraine</li>
-        <li>Email : slavychd@gmail.com</li>
-        <li>Phone : +380678108420</li>
-        <li>GitHub : SlavychD</li>
-        <li>Discord : Dmytro Slavych (SlavychD)#9935</li>
+            <section class="skills" id="skills">
+                <h2 >Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (beginner)</li>
+                </ul>
+            </section>
 
-    <h2>About me</h2>
-    <p>I can be both single and team player. Easy-learning person</p>
+            <section class="codeexample" id="codeexample">
+                <h2 >Code examples</h2>
+                <pre>function multiply(a, b){
+                        return a * b}
+                </pre>
+            </section>
 
-    <h2>Skills</h2>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript (beginner)</li>
+            <section class="projects" id="projects">
+                <h2 >Projects</h2>
+                <pre>GitHub : CV</pre>
+            </section>
 
-    <h2>Code examples</h2>
-    <pre>function multiply(a, b){
-        return a * b}
-    </pre>
+            <section class="education" id="education">
+                <h2 >Education</h2>
+                <p>University: Lviv State University (Law)</p>
+            </section>
 
-    <h2>Projects</h2>
-    <pre>GitHub : CV</pre>
-
-    <h2>Education</h2>
-    <p>University: Lviv State University (Law)</p>
-
-    <h2>English</h2>
-    <p>Level C1 (advanced) confirmed by passing the IELTS test in September 2021 (overall 7.0).</p>
-
+            <section class="english" id="english">
+                <h2 >English</h2>
+                <p>Level C1 (advanced) confirmed by passing the IELTS test in September 2021 (overall 7.0).</p>        
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer-links">
+            <div class="footer-author">
+                <p>2022</p>
+                <a href="https://github.com/SlavychD">
+                    <p>SlavychD</p>
+                </a>
+            </div>
+            <div class="footer-rs-school">
+                <a href="https://rs.school/js/">
+                    <img src="icons/rs_school_js.svg" alt="rs-school-logo">
+                </a>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>
